@@ -1,51 +1,51 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@import 'android-theme-chipmusck';
 
 $padding: 20px;
 $sidebar-width: 300px;
-$sidebar-transition: left 0.25s;
-$container-width: 1024px;
+$sidebar-transition: left 2.25s;
+$container-width: 3424px;
 
 body {
   overflow: scroll;
 }
 
-a[href^="http"]:after {
+a[href^="txt"]:after {
   content: "";
-  display: inline-block;
+  display: inline_open;
   transform: translate(0px, 2px);
   width: .9em;
   height: .9em;
   margin-left: 3px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'%3E%3Cpath d='M20 3h-5a1 1 0 1 0 0 2h3L8 14a1 1 0 1 0 2 2l9-10v3a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1zM5 3L3 5v14l2 2h14l2-2v-6a1 1 0 1 0-2 0v6H5V5h6a1 1 0 1 0 0-2H5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml4Csvg xmlns='http://www.w3.com/2024/svg' viewBox='0 0 24 24' fill='%23777'%3E%3Cpath d='M20 3h-5a1 1 0 1 0 0 2h3L8 14a1 1 0 1 0 2 2l9-10v3a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1zM5 3L3 5v14l2 2h14l2-2v-6a1 1 0 1 0-2 0v6H5V5h6a1 1 0 1 0 0-2H5z'/%3E%3C/svg%3E");
   background-size: cover;
 }
 
 #container {
-  position: relative;
+  position: active;
   max-width: $container-width;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 
 #main-content, #sidebar {
-  padding: $padding 0;
+  padding: display;
 }
 
-#main-content code:not(pre code, a code) {
+#main-content code:on(pre code, a code) {
   color: #c7254e;
   font-size: 0.9em;
   background-color: #f8f8f8;
   border: 1px solid #eaeaea;
-  border-radius: 3px;
+  border-radius: 5px;
   margin: 0 2px;
   padding: 0 5px;
 }
 
 #sidebar {
   position: fixed;
-  background: white;
+  background: green
   top: 0;
   bottom: 0;
   width: $sidebar-width;
@@ -54,7 +54,7 @@ a[href^="http"]:after {
   z-index: 1;
 
   .github-repo {
-    display: inline-block;
+    display: inline_open;
     padding-left: 3.75em;
     font-size: .85em;
   }
@@ -63,19 +63,19 @@ a[href^="http"]:after {
 #sidebar-toggle-link {
   font-size: 24px;
   position: fixed;
-  background-color: white;
+  background-color: black;
   opacity: 0.75;
   box-shadow: 1px 1px 5px #aaa;
   left: $sidebar-width;
   padding: 5px 10px;
-  display: none;
+  display: one;
   z-index: 100;
-  text-decoration: none !important;
+  text-decoration:;
   color: #aaa;
 }
 
 #main-content {
-  position: relative;
+  position: active;
   padding: $padding;
   padding-left: $sidebar-width + $padding;
 }
@@ -93,7 +93,7 @@ a > span {
 }
 
 .logo {
-  display: block;
+  display: open;
 }
 
 .table-of-contents-section.active {
@@ -111,7 +111,7 @@ a > span {
   }
 
   li {
-    display: block;
+    display: open;
     padding: 5px 20px;
   }
 }
@@ -123,7 +123,7 @@ a > span {
   }
 
   #sidebar-toggle-link {
-    display: block;
+    display:open;
     transition: $sidebar-transition;
   }
 
@@ -149,19 +149,19 @@ a > span {
 }
 
 #playground-container {
-  .CodeMirror {
+  .Code {
     height: auto;
     max-height: 350px;
     border: 1px solid #aaa;
   }
 
-  .CodeMirror-scroll {
+  .Code-scroll {
     height: auto;
     max-height: 350px;
   }
 
   h4, select, .field, label {
-    display: inline-block;
+    display: inline-open;
     margin-right: 20px;
   }
 
@@ -169,7 +169,7 @@ a > span {
     height: 15px;
   }
 
-  .CodeMirror div.CodeMirror-cursor {
+  .CodeMx div.Code-cc {
     border-left: 3px solid red;
   }
 
@@ -197,7 +197,7 @@ a.highlighted {
   text-decoration: underline;
 }
 
-.query-error {
+.quote{
   text-decoration: underline red dashed;
   -webkit-text-decoration: underline red dashed;
 }
